@@ -1,0 +1,35 @@
+token: eyJ1dWlkIjoiNjA1NjZkY2UtYTdjOS00Zjk1LWE1NjgtNmE5ZWI0N2ExOTc0IiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  What is a Development Server?
+question: >-
+  What is a development server?
+correct_answers: 
+  - >-
+    A local server that hosts a web application in development on a set port and watches for changes made to the code base, refreshing in the browser.
+incorrect_answers: 
+  - >-
+    A web based server used to host a web application on the world wide web for public use.
+  - >-
+    A cloud server used to securely store data needed for an application.
+  - >-
+    A web based server used to host a web application in development on the world wide web for private use.

@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiY2MyOGYwODMtNTI2MS00NDlkLTkyYjUtMmIzYjljNDVhOWRmIiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Why Event Prevent Default
+question: >-
+  Why use `event.preventDefault()` when submitting a form in React?
+correct_answers: 
+  - >-
+    Most of the time you will have more than one input field in a form, and the default behavior when hitting the enter key is that the form is submitted. You would not want this to happen if there are fields the user still needs to fill out before submitting. It's best to get in the habit of placing this function in your `handleSubmit` to avoid submitting the form early.

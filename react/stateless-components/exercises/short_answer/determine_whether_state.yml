@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiOTJmOGM2YmUtYTIzYi00YjhiLTg3ZDctOWY1YmNlMTFjYzU0IiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Determine Whether State
+question: >-
+  Describe how to determine whether a component should have state.
+correct_answers: 
+  - >-
+    If a component retrieves, processes or distributes data it should have state. Stateful components tend to be container components that contain all of the methods for fetching and sorting data. Stateful components also render stateless presentational components, passing data along to the stateless components. State increases complexity and reduces predictability, so making a component stateful should be done sparingly.

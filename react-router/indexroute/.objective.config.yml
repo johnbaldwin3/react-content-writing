@@ -1,0 +1,25 @@
+token: eyJ1dWlkIjoiMTliMDM4YTItMWFiYS00MmM1LThjZTYtMGM5ZDk0NjQ4NjU2Iiwia2luZCI6Imtub3dsZWRnZSIsInR5cGUiOiJvYmplY3RpdmUifQ==
+
+# This section is used to configure this objective on Newline.
+# `token` can not be changed; however, the rest of the
+# information can be edited as needed. Changes you make
+# here will overwrite the existing configuration on Newline
+# when this catalog is published, or when using `newline objective publish`.
+#
+# This objective is KNOWLEDGE.
+# It isn't possible to change an "enabling" objective into
+# a "terminal" objective, or vice versa, once it's been created.
+
+# Everything below this line can be edited.
+version: 0.0.0
+title: >-
+  Describe relationship between indexroute and route with React-Router
+duration: >-
+  45
+
+# `category` can only be one of the following:
+# - skill
+# - knowledge
+# - affect
+category: >-
+  knowledge

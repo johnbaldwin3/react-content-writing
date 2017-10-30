@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiZmEwOGFmN2EtODdmMi00Y2I1LWI0NzktYTBhZTc0Mzc4NDAzIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  React
+question: >-
+  What is React and how is it different from other `MVC` frameworks?
+correct_answers: 
+  - >-
+    `React` is really a `view` library that couples the `view` withe the rest of the code.
+incorrect_answers: 
+  - >-
+    `React` is a `view` library and relies on other frameworks to handle `models` and `controllers`.
+  - >-
+    `React` is a frameworks that handles `models` and `controllers`, only.

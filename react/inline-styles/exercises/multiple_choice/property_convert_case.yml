@@ -1,0 +1,35 @@
+token: eyJ1dWlkIjoiOWIyOTcwZDctNDYzMS00ZDNlLTliNzQtNGIwYzk1MDJiMThiIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Property Convert Case
+question: >-
+  Hyphen separated CSS properties must be converted to which case when styling a React component?
+correct_answers:
+  - >-
+    camelCase
+incorrect_answers:
+  - >-
+    Title Case
+  - >-
+    ALL CAPS
+  - >-
+    snake_case

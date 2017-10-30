@@ -1,0 +1,35 @@
+token: eyJ1dWlkIjoiNDhlNTg3OTktYjQzMC00Y2I1LTkyMzctZjc4MGQ1ZTc5Nzc5IiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Not a Component Type
+question: >-
+  Which of the following options is *not* a component type in React?
+correct_answers: 
+  - >-
+    stateful functional
+incorrect_answers: 
+  - >-
+    stateless
+  - >-
+    stateless functional
+  - >-
+    stateful

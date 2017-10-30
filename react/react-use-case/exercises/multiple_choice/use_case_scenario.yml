@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiOTkyZmYyYWUtZmUzNS00NDk0LWIzY2ItYzcwN2Y3NzFiYWE2IiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Use case scenario
+question: >-
+  When should you use `React`?
+correct_answers: 
+  - >-
+    When building large scale apps in which data changes over time.
+incorrect_answers: 
+  - >-
+    When building a one page static website.
+  - >-
+    When building small scale basic app where data changes seldomly.

@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiY2E1ZThhOWYtNjFmYi00ZDY0LWE2YzEtMDI2NzU2ZjdlMjRiIiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Compare Contrast React with HTML
+question: >-
+  Compare and contrast writing inline styles in React and JSX with writing inline styles in a standard HTML document.
+correct_answers:
+  - >-
+    Writing inline styles in React is very similar to writing inline styles in a standard HTML document. Styles are declared by providing comma separated property/value pairs to a `style` attribute on the element. React and JSX differ from HTML in that the property/value pairs being passed to the `style` attribute on an element have to be an object and not string. That object is then placed inside an additional pair of curly braces `{}` so that it may be interpolated when the template is rendered. Also, with React and JSX, hyphen separated property names must be camel case.

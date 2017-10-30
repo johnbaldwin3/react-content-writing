@@ -1,0 +1,35 @@
+token: eyJ1dWlkIjoiMzVkYWY1N2QtYzVkOS00MTA1LWFlYzQtYjY4NWVlNTJiODkzIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Passing a Method 2
+question: >-
+  Within a hypothetical `<Notes />` component, how could a `saveNote` method be passed to a child `<NotesList />` component?
+correct_answers: 
+  - >-
+    `<NotesList saveNote={this.saveNote}/>`
+incorrect_answers: 
+  - >-
+    `<Notes saveNote={this.saveNote}/>`
+  - >-
+    `<NotesList saveNote={this.state.saveNote}/>`
+  - >-
+    `<Notes saveNote={this.props.saveNote}/>`

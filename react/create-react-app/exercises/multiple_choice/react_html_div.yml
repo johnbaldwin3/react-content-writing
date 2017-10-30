@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiYzE2YTYwZmUtYjA3OC00NjZmLTlkMTEtY2I1NTRiOWQ0MTM4IiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  React HTML div
+question: >-
+  Which element is commonly used in the body of index.html to insert a React application?
+correct_answers:
+  - >-
+    `<div id="root"></div>`
+incorrect_answers:
+  - >-
+    `<react id="app"/>`
+  - >-
+    `<main id="react">{{body}}</main>`

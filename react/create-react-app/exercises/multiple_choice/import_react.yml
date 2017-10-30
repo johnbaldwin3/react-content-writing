@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiOWU5YzEzODMtYWNlZi00MWMwLWJiYjItYTRjYTQ1NjlmODAxIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  import React
+question: >-
+  Which `import` statement is used to import React and the `Component` library into `app.js`?
+correct_answers:
+  - >-
+    `import React, { Component } from 'react';`
+incorrect_answers:
+  - >-
+    `import {React, Component } from 'react';`
+  - >-
+    `var React = require('Component');`

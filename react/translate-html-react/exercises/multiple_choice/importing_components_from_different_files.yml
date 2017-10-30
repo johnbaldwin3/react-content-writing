@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiNGU4MjRiNDctYjBjMy00MzBmLTk3MWUtZjExMjhiY2ZjMzZhIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Importing components from different files
+question: >-
+  Which of the following represents the proper way of importing components from different files?
+correct_answers:
+  - >-
+    `import ComponentName from './path-to-file.js';`
+incorrect_answers:
+  - >-
+    `import component(ComponentName) from './path-to-file.js';`
+  - >-
+    `import component({"ComponentName", "./path-to-file.js"})`

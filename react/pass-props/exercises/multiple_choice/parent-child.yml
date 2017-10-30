@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiMjFlOWFiYTgtMTlkMy00YWNjLWJiNTQtNTEwYTQ5MDAyMmU2IiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  parent-child
+question: >-
+  How is `state` shared with a child components from whithin the parent component?
+correct_answers:
+  - >-
+    `<Parent> <Child data={this.state.data}/> </Parent>`
+incorrect_answers:
+  - >-
+    `<Parent> <Child data={this.props.data}/> </Parent>`
+  - >-
+    `<Parent> <Child props={this.state.data}/> </Parent>`

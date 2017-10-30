@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiOWYyYjhhNjAtOWNiZC00YTBmLWFjYTctYjNlNGQ1YzkxZWM1IiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Nested components
+question: >-
+  What is the best way to organize nested components in order to have cleaner and more modular code?
+correct_answers:
+  - >-
+    The best way to organize nested components is to put each nested component its own file. In this manner, we can import or export each component whenever needed.

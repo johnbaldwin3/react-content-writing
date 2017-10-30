@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiOTdlMTExMGItNjJkZi00MzE4LWExOWItYTlkN2Y3NDc4ZDQ2IiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Key
+question: >-
+  Why is the `key` attribute extremely important in React?
+correct_answers: 
+  - >-
+    Because React uses it to monitor changes to the DOM.
+incorrect_answers: 
+  - >-
+    Because it is needed to render data sequentially.
+  - >-
+    Because it is needed to export data between components.

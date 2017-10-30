@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiZGQ3NTFiNjItNTE5Mi00ZWJjLWFkMTctN2FhOTdjNTBiMmZkIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Create React App Command
+question: >-
+  The `create-react-app` command is followed by which of these options?
+correct_answers: 
+  - >-
+    The name of the folder in which the application will be generated.
+incorrect_answers: 
+  - >-
+    The name of the development server.
+  - >-
+    The outer-most component in the app.

@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiMDFjOWYzMjctOWZmMS00MjY2LTk3NjYtM2VhMzFhMDc3MTViIiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Best Way to Bind This
+question: >-
+  When writing methods on React components, what is the best way to bind `this` to the correct context?
+correct_answers:
+  - >-
+    Explicitly bind it in the constructor method. There's more than one solution to this problem, but binding in the constructor method is the recommended solution.

@@ -1,0 +1,35 @@
+token: eyJ1dWlkIjoiMjBlYTg5NWItZGU2YS00YjA4LWJmNDUtYzI3NWZhOTkxZDhlIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Which Gets Styled
+question: >-
+  With a styling object of `let bgStyle = {backgroundColor: this.props.bgColor};` declared within a components `render()` function, which of the following elements would have a background color of `"#332E3C"` applied to it?
+correct_answers:
+  - >-
+    `<div className="box" bgColor="#332E3C" style={bgStyle}>`
+incorrect_answers:
+  - >-
+    `<div className="box" bgColor="#332E3C" style={bgColor}>`
+  - >-
+    `<div className="box" bgStyle="#332E3C" style={bgStyle}>`
+  - >-
+    `<div className="box" bgColor=red style={bgStyle}>`

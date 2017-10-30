@@ -1,0 +1,35 @@
+token: eyJ1dWlkIjoiOTg1ZTI4N2MtYmE3NS00OTY0LWExNzEtMGExZTQ5MjUyN2YwIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Which Property Yields Children?
+question: >-
+  Which component property is used to yield child components or elements?
+correct_answers: 
+  - >-
+    `{this.props.children}`
+incorrect_answers: 
+  - >-
+    `{props.children}`
+  - >-
+    `{this.state.children}`
+  - >-
+    `{this.props.component}`

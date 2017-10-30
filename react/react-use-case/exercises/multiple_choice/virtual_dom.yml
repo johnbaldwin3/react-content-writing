@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiMzM3NTJkNzgtM2Q3NC00OGYwLWIxNTQtZTU2MWJlOTBhZTQ5IiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Virtual DOM
+question: >-
+  What is the basic rendering method of the `Virtual DOM`?
+correct_answers:
+  - >-
+    Only the parts of a component in which the data has changed are updated in the view.
+incorrect_answers:
+  - >-
+    It renders the whole document with every data change.
+  - >-
+    It waits for a page refresh to update the view after a change in the data.

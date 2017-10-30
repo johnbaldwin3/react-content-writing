@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiYzM0ZjQzZDQtOGNhZi00OTA0LWI1MDItMjA5NmMzZjExZjZmIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  React components
+question: >-
+  What is a React `component`?
+correct_answers:
+  - >-
+    It is a block of code responsible for rendering a portion of the UI.
+incorrect_answers:
+  - >-
+    It is a method used to generate `views`.
+  - >-
+    It is a JSX tag used to wrap individual `views`.

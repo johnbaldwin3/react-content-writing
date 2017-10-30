@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiM2E0MjBhZjQtNDQ3MS00OTQ0LWExMWEtYzAwMzAxMzcxZGMyIiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Component Architecture
+question: >-
+  Describe component architecture and data distribution in a React app.
+correct_answers:
+  - >-
+    Each component should be responsible for a minimal number of elements and minimal functionality. Data management and distribution throughout a project should be handled by multiple components. We should have a lot of "presentational" components that inherit their properties from "container" components. Each should be compartmentalized so that the code can be accessed and reused in the project multiple times if need be. A container component should use its `state` to retain and distribute data to other presentational components. The presentational components render the data via `props`.

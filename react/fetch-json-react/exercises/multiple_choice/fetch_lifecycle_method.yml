@@ -1,0 +1,35 @@
+token: eyJ1dWlkIjoiZTc4OWE0MGQtNjU2Yy00NTJkLThhYzMtNzc4YTcxOTQ0ZTM1IiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  Fetch Lifecycle Method
+question: >-
+  With React, which component lifecycle method is preferred when performing a `fetch` to retrieve data with a network request?
+correct_answers: 
+  - >-
+    `componentDidMount()`
+incorrect_answers: 
+  - >-
+    `componentWillMount()`
+  - >-
+    `constructor()`
+  - >-
+    `render()`

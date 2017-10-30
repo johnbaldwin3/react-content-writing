@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiYzUxNWEyMWItNTAwZS00MjRlLWE2MGEtN2JmMzg5ZGYxMmJlIiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Root
+question: >-
+  Describe the relationship between `<div id="root"></div>` and the JavaScript components that make up a react app.
+correct_answers: 
+  - >-
+    The element `<div id="root"></div>` exists in the markup in `index.html` when a React app is generated using `create-react-app`. It is the element which yields the `<App />` component as described by the `ReactDOM.render()` method in `src/index.js`.

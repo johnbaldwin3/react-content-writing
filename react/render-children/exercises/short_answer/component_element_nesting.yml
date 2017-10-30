@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiMjU0YzIxZmMtMTQ4Yi00Y2MzLTg4ZGQtNWUxYzQwOGZhOWRlIiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Component Element Nesting
+question: >-
+  Describe how components and elements are passed to other components in React.
+correct_answers:
+  - >-
+    In order to pass components or elements into another component that may not know what its children are going to be (or may render many different children depending on the page), we use `{this.props.children}`. This allows for a component to render things passed into it, and doesn't require that the component even reside inside of the same script sheet. The outer component that is meant to yield other components will return an element with `{this.props.children}` nested somewhere within it. When the outer component is referenced it will be written with an opening and closing tag. Inside that tag pair, you'll find nested components and elements.

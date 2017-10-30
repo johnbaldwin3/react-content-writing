@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiODJmZTBmM2EtNGNjMS00OGVlLWI1ODItMDQyZjA3ZGU0N2QwIiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Retrieving Data With React
+question: >-
+  Describe the process of retrieving data with a network request and rendering said data using React.
+correct_answers:
+  - >-
+    The `componentDidMount` component lifecycle method is used when making network requests. Inside `componentDidMount` the network request is described. The `then` method can be chained to the request to manage promises and make sure the network request is completed. The `catch` method can be chained to the `then` method to listen for error messages from the network and utilize them for functionality in the program, or simply for reference. Data is stored in the components `state`, using `setState()` inside of the promise handler. `state` can be passed down as `props` to children components or rendered directly within the component itself.

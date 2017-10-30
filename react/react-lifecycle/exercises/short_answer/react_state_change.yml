@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiNDk3YWQxM2YtZDY1NC00NzhhLWJhMmUtMGQ3NGY2M2VjODY1IiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  React State Change
+question: >-
+  How does react handle state change differently from most other JavaScript view libraries?
+correct_answers:
+  - >-
+    When state changes in React only the necessary components are re-rendered to reflect the state change. Other libraries and frameworks will re-render the entire application. React uses a virtual DOM to track the state of the DOM in memory and compares the new state with the virtual DOM before updating the physical DOM.

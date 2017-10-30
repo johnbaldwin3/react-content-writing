@@ -1,0 +1,33 @@
+token: eyJ1dWlkIjoiYmI1NDgwMTctM2ExZC00NDI5LTgzMzItMjlkNWNmOTM5NzhlIiwidHlwZSI6Im11bHRpcGxlX2Nob2ljZSJ9
+
+# This is a multiple choice config file.
+# It's simple to use:
+#   title: >-
+#     Basic Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#   incorrect_answers:
+#     - >-
+#       90
+#     - >-
+#       Lord of the Rings
+#
+# Please add at least one option to both answer sections
+
+title: >-
+  React building blocks
+question: >-
+  What is the basic architecture of a React app?
+correct_answers:
+  - >-
+    A component hierarchy made up of container and simple components.
+incorrect_answers:
+  - >-
+    Individual and independent components.
+  - >-
+    A main component made up of views.

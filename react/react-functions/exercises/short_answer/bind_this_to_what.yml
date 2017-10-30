@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiZTljM2UyOWYtMDFiOS00NDViLTlmZTUtYzFiNTAzNDZmYjBhIiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Bind This to What
+question: >-
+  When writing component methods in React which reference properties on that component, what do we want `this` bound to? Why?
+correct_answers: 
+  - >-
+    We want the `this` context to come from the top level component. This is important because we want that method to have access to the properties, state and methods of the component and not the method itself.

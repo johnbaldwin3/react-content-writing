@@ -1,0 +1,23 @@
+token: eyJ1dWlkIjoiYTJlZGVlODMtMWE2Yy00N2I3LTg1ZDktZDUwODhjNjBhMzA2IiwidHlwZSI6InNob3J0X2Fuc3dlciJ9
+
+# This is a short answer config file.
+# It's simple to use:
+#   title: >-
+#     Simple Math Question
+#   question: >-
+#     What is 2 * 2?
+#   correct_answers:
+#     - >-
+#       4
+#     - >-
+#       the square root of 16
+#
+# Please add at least one option to the correct_answers section
+
+title: >-
+  Compare Contrast Props State
+question: >-
+  Compare and contrast props and state in React.
+correct_answers: 
+  - >-
+    Both belong to a React component. Both are plain JavaScript Objects. Both trigger a render update when changed. Props act as the configuration of a component. They are immutable to the component receiving them from a parent component. State is like a snapshot of a component at a specific time. State has a default value when a component mounts and then when a user event occurs state can change. A parent component can pass props to a child but a component manages state internally.
